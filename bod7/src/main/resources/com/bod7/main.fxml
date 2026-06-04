@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bod7.MainController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="258.0" layoutY="356.0" mnemonicParsing="false" onAction="#onButtonClick" text="Compute" textFill="RED" />
+            <Label layoutX="226.0" layoutY="24.0" minWidth="-Infinity" text="RGB7092 - Товчлуурууд" />
+            <Label alignment="CENTER" layoutX="13.0" layoutY="24.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="214.0" prefWidth="574.0" text=" Манао нэлээд чадвар шаардсан цоож онгойлгохыг оролдож байна. Цоож n товчлууртай ба онгойлгохын тулд тогтмол дарааллаар товчлуурыг дарах хэрэгтэй. Товч дарах үед хэрэв зөв товчлуураа дарсан бол дараастай чигээр үлддэг ба эсрэг тохиолдолд бүх дарагдсан товчлуурууд анхны төлөвтөө ордог байна. Бүх товчлуурууд зөв дарааллаар дарагдсан тохиолдолд цоож онгойдог байна.Жишээ болгож гурван товчлуур дээр харуулъя. Онгойлгох дараалал нь 2,3,1 байг. Хэрэв эхлээд 1,3 дээр дарвал товчлуурууд буцаад дарагдаагүй болно. Хэрэв 2 дээр эхлээд дарвал энэ товчлуур дарагдсан чигээр үлдэнэ. Хэрэв 2-ын дараа 1-г дарвал бүх товчлуурууд анхны дарагдаагүй төлөвтөө орно. Хэрэв 2-ын дараа 3-ыг дарвал 2,3 хоёр товчлуур дарагдаастай үлдэнэ. Ингээд хоёр товчлуур дарсан учир цоожийг онгойлгохын тулд 1 дээр дарахад л хангалттай. Хамгийн муудаа хичнээн удаа товчлуур дарж байж цоожийг онгойлгохыг тооцоолно уу." textAlignment="CENTER" wrapText="true" />
+            <Group layoutX="258.0" layoutY="338.0" />
+            <Group layoutX="336.0" layoutY="338.0" />
+            <Group layoutX="74.0" layoutY="1.0" />
+            <Group layoutX="160.0" layoutY="139.0">
+               <children>
+                  <Label layoutX="63.0" layoutY="114.0" />
+                  <TextField fx:id="txtn" layoutX="89.0" layoutY="109.0" prefHeight="26.0" prefWidth="84.0" />
+               </children>
+            </Group>
+            <Group layoutX="339.0" layoutY="2.0" />
+            <Group layoutX="32.0" layoutY="199.0" />
+            <Group layoutX="211.0" layoutY="43.0" />
+            <Group layoutX="182.0" layoutY="302.0" />
+            <Label layoutX="228.0" layoutY="229.0" text="Цоожын товчлуур тоо" />
+            <Label fx:id="lblwarn" layoutX="251.0" layoutY="338.0" />
+            <Label layoutX="235.0" layoutY="284.0" text="Товчлуур дарах тоо" />
+            <TextField fx:id="txttotal" editable="false" layoutX="249.0" layoutY="310.0" prefHeight="26.0" prefWidth="84.0">
+               <font>
+                  <Font name="Courier New" size="12.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
