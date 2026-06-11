@@ -17,6 +17,6 @@ public class ArithmeticProgress {
         return (aq - ap) / (q - p);
     }
     public int getAn() {
-        return p + (n - p) * calculateD();
+        return ap + (n - p) * calculateD();
     }
 }
